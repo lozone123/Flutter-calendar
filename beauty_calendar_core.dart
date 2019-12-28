@@ -3,10 +3,8 @@ import 'beauty_lunar_calendar.dart';
 class BeautyCalendarCore {
   var headers = ["日", "一", "二", "三", "四", "五", "六"];
 
-  int showMonths = 1; //要显示多少个月的日历
-  bool isShowLunar = true; //是否显示农历
-
-  BeautyCalendarCore();
+  final int showMonths; //要显示多少个月的日历
+  final bool isShowLunar; //是否显示农历
 
   BeautyCalendarCore.getInstance(this.showMonths, this.isShowLunar);
 
